@@ -1,0 +1,118 @@
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.finished-todos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.total-time-container {
+    position: fixed;
+    align-self: flex-end;
+    justify-self: flex-end;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+    width: 100%;
+    height: 5%;
+}
+
+.create-todo-modal-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(72,232,139,0.7343312324929971);
+    font-weight: 900;
+    border: none;
+}
+
+.create-todo-modal-container input, textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    outline: none; 
+}
+
+.create-todo-modal-container button{
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    border: none;
+    flex-grow: 1;
+    margin: 5px;
+    margin-top: 10px;
+    min-width: 100px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    text-shadow: 5px 5px 5px white;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;  
+}
+
+.create-todo-modal-container button:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+    box-shadow: none;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.header-container button {
+    background: rgba(72,232,139,0.7343312324929971);
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    text-shadow: 2px 0px 2px black;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+    outline: none;
+}
+
+.header-container button:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+    box-shadow: none;
+}
+
+.MuiDialog-paperWidthSm {
+    width: 50%;
+}

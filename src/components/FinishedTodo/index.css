@@ -1,0 +1,41 @@
+.finished-todo-container {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    animation-name: enter;
+    background-color: #24346B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 1.5s;
+    box-shadow: 0px 0px 5px black;
+    margin: 5px;
+    width: 90%;
+    padding: 20px;
+    transition: 1s;
+}
+
+.finished-todo-container button {
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    border: none;
+    flex-grow: 1;
+    margin: 5px;
+    object-fit: cover;
+    min-width: 100px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    text-shadow: 5px 5px 5px white;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;    
+}
+.finished-todo-container button:hover {
+    opacity: 0.5;
+    transition: 0.7s;
+    box-shadow: none;
+}
