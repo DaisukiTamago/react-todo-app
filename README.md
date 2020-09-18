@@ -8,6 +8,7 @@
 2. See how much time you spend on each task
 3. Keep the timer running even when the site is closed
 4. No internet connection required, all the data is stored in the browser
+5. Responsive Layout
 
 ### Setup
 After clone the project:
