@@ -11,7 +11,7 @@
 
 ### Setup
 After clone the project:
-you can use either NPM or Yarn, your choice
-`yarn install`: to install the dependencies
-`yarn start`: get the app running
-`yarn build`: build the project into static files ready to distribution
+you can use either NPM or Yarn, your choice  
+`yarn install`: to install the dependencies  
+`yarn start`: get the app running  
+`yarn build`: build the project into static files ready to distribution  
